@@ -99,8 +99,8 @@ nav {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 25rem;
+    width: 25rem;
   }
   
   .bio {
@@ -117,4 +117,19 @@ nav {
   .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
+  }
+  
+  .more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+  }
+  
+  .more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+  }
+  
+  .more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
   }
