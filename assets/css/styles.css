@@ -302,6 +302,7 @@ nav {
     padding: 1.25rem;
     text-align: center;
     margin: 2rem 0 0;
+   
   }
 
   footer p{
@@ -322,6 +323,42 @@ nav {
     width: 3rem;
     height: 3rem;
   }
+
+  .robotics{
+    margin-top: 3rem;
+  }
+  .robotics img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+  .robotics h1{
+    text-align: center;
+  }
+  .robotics p{
+    text-align: left;
+    margin-top: .5rem;
+    
+    line-height: var(--line-height);
+    padding: .5rem 20rem
+  }
+  .robot-media1{
+      height: 12%;
+      width: 12%;
+      float:left;
+      margin-left:20%;
+      margin-right: auto;
+      
+      
+  }
+  .robot-media2{
+    
+    float: right;
+    margin-left:auto;
+    margin-right: 10%;
+    
+}
 
   @media screen and (max-width: 720px) {
     /*changes reflects on screen with a width of 720px and below*/
@@ -419,8 +456,4 @@ nav {
     }
   } 
 
-  .robotics{
-    text-align: center;
-    margin-top: 3rem;
-
-  }
+ 
