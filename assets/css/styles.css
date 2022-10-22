@@ -9,7 +9,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --primary-color: #792cf7;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -185,8 +185,10 @@ nav {
   
   .projects-container {
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
+    
+    
   }
 
   .projects-title {
@@ -274,6 +276,7 @@ nav {
     font-size: 1rem;
     font-weight: var(--bold-font);
     transition: var(--transition);
+    color: var(--primary-color);
   }
 
   .submit-btn:hover {
