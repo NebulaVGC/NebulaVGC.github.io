@@ -341,22 +341,32 @@ nav {
     margin-top: .5rem;
     
     line-height: var(--line-height);
-    padding: .5rem 20rem
+    padding: .5rem 20rem;
   }
+  
+
+figure figcaption {
+    text-align: center;
+    max-width: 30%;
+    caption-side: bottom;
+}
+  
+  .robot-media figure{
+    display: inline-block;
+    margin: 10rem; /* adjust as needed */
+    
+  }
+
   .robot-media1{
-      height: 12%;
-      width: 12%;
-      float:left;
-      margin-left:20%;
-      margin-right: auto;
-      
-      
+    height:50%;
   }
+  
   .robot-media2{
     
     float: right;
     margin-left:auto;
     margin-right: 10%;
+    margin-top: 3rem;
     
 }
 
