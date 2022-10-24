@@ -423,19 +423,20 @@ figure{
       }
 
       .hero {
-        margin-top: -4rem;
-        flex-direction: column;
+        margin-top: -2rem;
         gap: 0;
       }
     
       .hero img {
             height: 10rem;
             width: 10rem;
+           flex-direction: column;
         }
     
       .bio {
-        margin-top: -7rem;
+        margin-top: 2rem;
         width: 20.5rem;
+        position: relative;
       }
 
       .more-about {
@@ -458,6 +459,7 @@ figure{
 
       .projects-container {
         flex-direction: column;
+        align-items: center;
       }
     
       .project-container {
@@ -466,6 +468,64 @@ figure{
 
       .contact-form-container {
         max-width: 23.75rem;
+      }
+      .robotics h1{
+        margin-top: 2rem;
+        text-align: center;
+      }
+
+      .robot-img{
+        margin-top: 20rem;;
+        height: 30%;
+        width: 30%;
+      }
+      
+      .robotics {
+          margin-top: -5rem;
+          padding: 1rem 3.5rem;
+          margin: -18rem;
+          display:inline-block;
+        }
+        .robotics p {
+          text-align: justify;
+          
+      }
+
+      .picture-container{
+        align-items: center;
+        flex-direction: column;
+      }
+      .picture-container-card{
+        align-items:initial;
+      }
+
+      .robot-media1 {
+        height: 60%;
+        width: 60%;
+      }
+      .robot-media2 {
+        height: 100%;
+        width: 100%;
+      }
+      .java-media img{
+        height: 120%;
+        width: 120%;
+       
+      }
+      .body-img img {
+        width: 70%;
+        height: 70%;
+        
+      }
+      .turret-img img{
+        height: 120%;
+        width: 120%;
+      
+      }
+      .body-img img{
+        height: 120%;
+        width: 120%;
+      
       }
   }
 
