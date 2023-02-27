@@ -1,1 +1,1 @@
-My website is currently a work-in-progress.
+Welcome to my website!
